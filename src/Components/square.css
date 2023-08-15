@@ -1,7 +1,7 @@
 .square {
 
     background: none;
-    border: 1px solid #999;
+    border: 1px solid rgb(255, 255, 255);
     float: left;
     font-size: 40px;
     font-weight: bold;
@@ -21,11 +21,47 @@
     display: table;
 }
 
-.row{
+.row {
     height: 100vh;
     align-items: center;
     margin: auto;
     justify-content: space-around;
     display: flex;
     flex-direction: row;
+}
+
+.top-left {
+    border-right: 1px solid black;
+    border-bottom: 1px solid black;
+}
+
+.top-right {
+    border-left: 1px solid black;
+    border-bottom: 1px solid black;
+}
+
+.bottom-left {
+    border-right: 1px solid black;
+    border-top: 1px solid black;
+}
+
+.bottom-right {
+    border-left: 1px solid black;
+    border-top: 1px solid black;
+}
+
+.leftside {
+    border-right: 1px solid black;
+}
+
+.rightside {
+    border-left: 1px solid black;
+}
+
+.upar {
+    border-bottom: 1px solid black;
+}
+
+.niche {
+    border-top: 1px solid black;
 }
